@@ -12,9 +12,14 @@ module.exports = {
       },
       fontFamily: {
         'karla': ['Karla', 'sans-serif']
-      }
+      },
+      spacing: {
+        '3.6': '15px',
+        '26': '102px'
+      },
+      boxShadow: {
+        'lg': '0px 10px 10px 0px rgba(0, 0, 0, 0.10)'
     },
   },
   plugins: [],
-}
-
+},
