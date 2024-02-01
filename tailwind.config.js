@@ -8,7 +8,7 @@ module.exports = {
         amareloBrilho: 'hsl(71, 73%, 54%)',
         cinzaClaro: 'hsl(204, 43%, 93%)',
         azulCinzento: 'hsl(218, 22%, 67%)',
-        cianoClaro: 'rgba(42, 179, 177, 0.1519)'
+        cianoOpaco: '#2ab3b1d8'
       },
       fontFamily: {
         'karla': ['Karla', 'sans-serif']
