@@ -9,6 +9,9 @@ module.exports = {
         cinzaClaro: 'hsl(204, 43%, 93%)',
         azulCinzento: 'hsl(218, 22%, 67%)',
         cianoClaro: 'rgba(42, 179, 177, 0.1519)'
+      },
+      fontFamily: {
+        'karla': ['Karla', 'sans-serif']
       }
     },
   },

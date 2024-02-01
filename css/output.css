@@ -1783,11 +1783,6 @@ video {
   background-color: rgb(255 0 0 / var(--tw-bg-opacity));
 }
 
-.bg-ciano {
-  --tw-bg-opacity: 1;
-  background-color: hsl(179 62% 43% / var(--tw-bg-opacity));
-}
-
 .decoration-slice {
   -webkit-box-decoration-break: slice;
           box-decoration-break: slice;
@@ -1954,6 +1949,15 @@ video {
   vertical-align: super;
 }
 
+.font-karla {
+  font-family: Karla, sans-serif;
+}
+
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -2035,8 +2039,9 @@ video {
   color: rgb(59 130 246 / var(--tw-text-opacity));
 }
 
-.text-cianoClaro {
-  color: rgba(42, 179, 177, 0.1519);
+.text-ciano {
+  --tw-text-opacity: 1;
+  color: hsl(179 62% 43% / var(--tw-text-opacity));
 }
 
 .underline {
