@@ -4,8 +4,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" href="./css/style.css">
   <link rel="stylesheet" href="./css/output.css">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -15,9 +17,9 @@
   <title>Frontend Mentor | Single Price Grid Component</title>
 
 </head>
-<body class="font-karla  flex flex-col justify-center items-center h-full mx-auto max-w-xs">
-  <main class="min-w-full p-0">
-    <div class=" py-7 px-6">
+<body class="font-karla flex flex-col justify-center items-center h-full mx-auto max-w-96 md: max-w-screen-sm">
+  <main class="min-w-full p-0  grid md:grid-cols-2">
+    <div class=" py-7 px-6 md:col-span-2">
       <h1 class="text-ciano text-xl font-bold">Join our community</h1>
       <h3 class="text-amareloBrilho font-bold py-7 leading-5">30-day, hassle-free money back guarantee</h3>
       <p class="text-azulCinzento text-sm leading-6">
@@ -25,7 +27,7 @@
         Perfect for any developers who are serious about honing their skills.
       </p>
     </div>
-    <div class=" py-7 px-6 bg-ciano w-full">
+    <div class=" py-7 px-6 bg-ciano w-full md:col-span-1">
       <h2 class="text-white text-lg font-bold pb-6">Monthly Subscription</h2>
       <p class="text-white">
         <span class="text-3xl font-bold">&dollar;29 </span>
@@ -33,7 +35,7 @@
       <p class="text-white">Full access for less than &dollar;1 a day</p>
       <button class="bg-amareloBrilho text-white py-3.6 px-26 rounded mt-6 shadow-lg">Sign Up</button>
     </div>
-    <div class="py-7 px-6 bg-cianoOpaco text-white text-sm">
+    <div class="py-7 px-6 bg-cianoOpaco text-white text-sm md:col-span-1">
       <h2 class="text-lg font-bold pb-6">Why Us</h2>
       <p class="opacity-50">Tutorials by industry experts</p>
       <p class="opacity-50">Peer &amp; expert code review</p>
@@ -44,7 +46,7 @@
       <p class="opacity-50">New videos every week</p>
     </div>
   </main>
-  
+
   <footer class="min-w-full">
     <p class="text-center text-xs">
       Challenge by <a class="text-ciano" href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
