@@ -8,7 +8,8 @@ module.exports = {
         amareloBrilho: 'hsl(71, 73%, 54%)',
         cinzaClaro: 'hsl(204, 43%, 93%)',
         azulCinzento: 'hsl(218, 22%, 67%)',
-        cianoOpaco: '#2ab3b1d8'
+        cianoOpaco: '#2ab3b1d8',
+        backgroundB: '#E6EFF5',
       },
       fontFamily: {
         'karla': ['Karla', 'sans-serif']
@@ -22,4 +23,4 @@ module.exports = {
     },
   },
   plugins: [],
-}
+}}
